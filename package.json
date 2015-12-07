@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "gnome-shell-extension-android-battery",
+  "version": "0.1.0",
+  "description": "Displays Android's phone battery status in Gnome Shell bar",
+  "author": "Alexey Trofimov",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^2.0.2",
+    "eslint": "^1.7.3",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-eslint-threshold": "^0.1.1",
+    "gulp-json-editor": "^2.2.1",
+    "gulp-shell": "^0.5.0",
+    "gulp-symlink": "^2.1.3",
+    "gulp-zip": "^3.0.2",
+    "osenv": "^0.1.3",
+    "run-sequence": "^1.1.4"
+  },
+  "scripts": {
+    "install-extension": "gulp install",
+    "uninstall-extension": "gulp uninstall",
+    "test": "gulp test"
+  }
+}

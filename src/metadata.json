@@ -1,0 +1,7 @@
+{
+  "uuid": "android-battery@ext.the-island.ru",
+  "name": "Android Battery",
+  "description": "Displays Android battery status in Gnome shell topbar",
+  "shell-version": ["3.14", "3.18"],
+  "url": "https://github.com/dmzkrsk/gnome-shell-android-battery"
+}
